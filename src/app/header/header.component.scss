@@ -1,0 +1,19 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+#tbName{
+  font-family: 'Prompt', sans-serif;
+  font-size: 40px;
+  background: linear-gradient(90deg, rgba(150,236,255,1) 0%, rgba(255,255,255,1) 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a{
+  text-decoration: none;
+  color:white
+}
+a:hover{
+  color:rgba(150,236,255,1);
+}

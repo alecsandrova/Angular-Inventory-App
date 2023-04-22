@@ -1,0 +1,59 @@
+<!-- <p>uwu</p> -->
+<div id = "inventory-div">
+    <!-- <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-header>
+            <mat-card-title>Lorem Ipsum</mat-card-title>
+            <mat-card-subtitle>Lorem Ipsum</mat-card-subtitle>
+          </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse maximus risus eget pharetra luctus. 
+            Donec ullamcorper quam leo, a accumsan ligula maximus ac. Nam at.
+          </p>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title>Lorem Ipsum</mat-card-title>
+            <mat-card-subtitle>Lorem Ipsum</mat-card-subtitle>
+          </mat-card-header>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse maximus risus eget pharetra luctus. 
+            Donec ullamcorper quam leo, a accumsan ligula maximus ac. Nam at.
+          </p>
+        </mat-card-content>
+       
+      </mat-card> -->
+      <!-- <div *ngFor="let item of items">
+        <p>Name: {{item}}</p>
+        <p>Descriere: {{item}}</p>
+        <p>cantitate: {{item}}</p>
+        <button>delete</button>
+        <button>edit</button>
+
+      </div> -->
+
+      <div *ngFor="let item of items">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{item}}</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Description: {{item}}</p>
+            <p>Quantity: {{item}}</p>
+            <button mat-raised-button>Edit</button>
+            <button mat-raised-button color="warn">Delete</button>
+          </mat-card-content>
+        </mat-card>
+      </div>
+</div>
